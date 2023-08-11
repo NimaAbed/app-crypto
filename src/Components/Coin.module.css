@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    border: 2px solid silver;
+    border-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+}
+
+.container .title{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container .image{
+    width: 50px;
+    padding-right: 10px;
+}
+
+.container .redchange{
+    color: rgb(255, 38, 38);
+}
+
+.container .greenchange{
+    color: rgb(38, 255, 38);
+}
